@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  base-service:
+  - apiVersion: v2
+    created: "2024-06-02T15:02:03.966622505Z"
+    description: A simple chart. Common for applications.
+    digest: fc6bf77416dd7a2c04e54525db80e59a12bdf0b092d93b3b9b7a515f0167b54e
+    name: base-service
+    type: application
+    urls:
+    - https://github.com/anqa-ag/helm-charts-public/releases/download/base-service-0.1.0/base-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-02T15:02:03.966628376Z"
