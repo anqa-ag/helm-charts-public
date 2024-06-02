@@ -17,7 +17,7 @@ server:
   name: server
   kind: Deployment
   strategy: {}
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 1
 
   image:
@@ -50,8 +50,6 @@ server:
 
   nodeSelector: {}
 
-  topologySpreadConstraints: []
-
   affinity: {}
 
   tolerations: []
@@ -59,6 +57,13 @@ server:
   resources: {}
 
   jobs: []
+  # - name: <job-name>
+  #   annotations: {}
+  #   image:
+  #     repository: curlimages/curl
+  #     tag: latest
+  #   commands:
+  #     - "curl"
 
   autoscaling:
     enabled: false
