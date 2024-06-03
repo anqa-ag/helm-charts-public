@@ -3,7 +3,17 @@ entries:
   base-service:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: '2024-06-03T04:50:08.946445922Z'
+    created: "2024-06-03T09:07:54.598720124Z"
+    description: A Helm chart for Kubernetes
+    digest: ac9f55be25b371ddb3c2b5b4b9a54732c287a71e071bf811ea4592b7e3c69dd2
+    name: base-service
+    type: application
+    urls:
+    - https://github.com/anqa-ag/helm-charts-public/releases/download/base-service-0.1.4/base-service-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-03T04:50:08.946445922Z"
     description: A Helm chart for Kubernetes
     digest: a36411ea01ae704eda0c30a790066ae90ac1f7e7aa57afefef9534d5b6e10c68
     name: base-service
@@ -13,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: '2024-06-02T15:18:47.929006788Z'
+    created: "2024-06-02T15:18:47.929006788Z"
     description: A Helm chart for Kubernetes
     digest: b3f367a10387fd03fc4f5a0a4a75da6d3c1c9e14405abc24870c67fd810f55b6
     name: base-service
@@ -22,7 +32,7 @@ entries:
     - packages/base-service-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
-    created: '2024-06-02T15:02:03.966622505Z'
+    created: "2024-06-02T15:02:03.966622505Z"
     description: A simple chart. Common for applications.
     digest: fc6bf77416dd7a2c04e54525db80e59a12bdf0b092d93b3b9b7a515f0167b54e
     name: base-service
@@ -30,4 +40,4 @@ entries:
     urls:
     - packages/base-service-0.1.0.tgz
     version: 0.1.0
-generated: '2024-06-03T04:50:08.946459638Z'
+generated: "2024-06-03T09:07:54.598766622Z"
